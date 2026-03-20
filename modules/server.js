@@ -16,12 +16,12 @@ class Server {
 
         this.middlewares();
         this.routes();
-        this.conectarDB();
+        this.conectarDb();
     }
 
     listen(){
         this.app.listen(this.port, () => {
-            console.log('Eschundo por el puerto ${this.port}');
+            console.log(`Escuchando por el puerto ${this.port}`);
         });
     }
 
