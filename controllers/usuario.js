@@ -105,6 +105,6 @@ module.exports = {
     usuariosGet,
     usuariosPost,
     usuariosPut,
-    usuarioDelete,
+    usuariosDelete,
     PromGet
 }
