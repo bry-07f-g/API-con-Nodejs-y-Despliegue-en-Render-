@@ -86,7 +86,7 @@ const usuariosPut = async(req, res = response) => {
     });
 }
 
-const usuarioDelete = async (req, res = response) => {
+const usuariosDelete = async (req, res = response) => {
     const body = req.query;
 
     console.log(body);
